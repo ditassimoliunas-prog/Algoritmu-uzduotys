@@ -1,0 +1,29 @@
+# Compiled binaries and executables
+*.exe
+*.exe.pdb
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Rust build directories
+target/
+Cargo.lock
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
