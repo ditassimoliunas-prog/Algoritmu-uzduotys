@@ -1,7 +1,3 @@
-/// Insertion Sort Algorithm in Rust
-/// Complexity: O(n²) average case, O(n) best case
-/// Space: O(1)
-
 fn insertion_sort<T: Ord>(arr: &mut [T]) {
     for i in 1..arr.len() {
         let mut j = i;
@@ -16,9 +12,9 @@ fn insertion_sort<T: Ord>(arr: &mut [T]) {
 fn main() {
     // Example 1: Sorting integers
     let mut numbers = vec![64, 34, 25, 12, 22, 11, 90];
-    println!("Original array: {:?}", numbers);
+    println!("Orginalus masyvas: {:?}", numbers);
     insertion_sort(&mut numbers);
-    println!("Sorted array: {:?}", numbers);
+    println!("Surūšiuotas masyvas: {:?}", numbers);
     println!();
 }
 
